@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.14)  22 JAN 2020 11:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.14)  22 JAN 2020 16:17
 entering extended mode
 **./MatLab.tex
 (MatLab.tex
@@ -537,42 +537,93 @@ Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 ("C:\Users\nicoc\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum\lipsum.ltd.
 tex"
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
-)) (MatLab.aux
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
+))
+("C:\Users\nicoc\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\multicol.sty
+"
+Package: multicol 2019/03/01 v1.8w multicolumn formatting (FMi)
+\c@tracingmulticols=\count272
+\mult@box=\box49
+\multicol@leftmargin=\dimen153
+\c@unbalance=\count273
+\c@collectmore=\count274
+\doublecol@number=\count275
+\multicoltolerance=\count276
+\multicolpretolerance=\count277
+\full@width=\dimen154
+\page@free=\dimen155
+\premulticols=\dimen156
+\postmulticols=\dimen157
+\multicolsep=\skip53
+\multicolbaselineskip=\skip54
+\partial@page=\box50
+\last@line=\box51
+\maxbalancingoverflow=\dimen158
+\mult@rightbox=\box52
+\mult@grightbox=\box53
+\mult@gfirstbox=\box54
+\mult@firstbox=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\c@minrows=\count278
+\c@columnbadness=\count279
+\c@finalcolumnbadness=\count280
+\last@try=\dimen159
+\multicolovershoot=\dimen160
+\multicolundershoot=\dimen161
+\mult@nat@firstbox=\box73
+\colbreak@box=\box74
+\mc@col@check@num=\count281
+) (MatLab.aux
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
 )
 \openout1 = `MatLab.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Info: Redefining \. on input line 18.
-LaTeX Info: Redefining \% on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Info: Redefining \. on input line 19.
+LaTeX Info: Redefining \% on input line 19.
 
 ("C:\Users\nicoc\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count272
-\scratchdimen=\dimen153
-\scratchbox=\box49
-\nofMPsegments=\count273
-\nofMParguments=\count274
+\scratchcounter=\count282
+\scratchdimen=\dimen162
+\scratchbox=\box75
+\nofMPsegments=\count283
+\nofMParguments=\count284
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count275
-\MPscratchDim=\dimen154
-\MPnumerator=\count276
-\makeMPintoPDFobject=\count277
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen163
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
 \everyMPtoPDFconversion=\toks25
 )
 ("C:\Users\nicoc\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
@@ -590,8 +641,8 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 460.
 )
-\AtBeginShipoutBox=\box50
-Package hyperref Info: Link coloring OFF on input line 18.
+\AtBeginShipoutBox=\box76
+Package hyperref Info: Link coloring OFF on input line 19.
 
 ("C:\Users\nicoc\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
@@ -605,63 +656,77 @@ Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count278
+\c@section@level=\count288
 )
-LaTeX Info: Redefining \ref on input line 18.
-LaTeX Info: Redefining \pageref on input line 18.
-LaTeX Info: Redefining \nameref on input line 18.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
+ (MatLab.out) (MatLab.out)
 \@outlinefile=\write3
 \openout3 = `MatLab.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
 
 
 ("C:\Users\nicoc\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
 
 ("C:\Users\nicoc\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 25.
-[1
+) [1
 
 {C:/Users/nicoc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 25.
+<imagenes/math_discre.jpeg, id=84, 2348.775pt x 1084.05pt>
+File: imagenes/math_discre.jpeg Graphic file (type jpg)
+<use imagenes/math_discre.jpeg>
+Package pdftex.def Info: imagenes/math_discre.jpeg  used on input line 100.
+(pdftex.def)             Requested size: 284.52756pt x 131.32098pt.
+ [2 <./imagenes/math_discre.jpeg>] [3] [4]
+<imagenes/atributos-MATLAB.jpeg, id=102, 766.865pt x 465.74pt>
+File: imagenes/atributos-MATLAB.jpeg Graphic file (type jpg)
+<use imagenes/atributos-MATLAB.jpeg>
+Package pdftex.def Info: imagenes/atributos-MATLAB.jpeg  used on input line 227
+.
+(pdftex.def)             Requested size: 284.52756pt x 172.80435pt.
+ [5 <./imagenes/atributos-MATLAB.jpeg>]
+Overfull \hbox (11.13947pt too wide) in paragraph at lines 245--246
+[]\OT1/cmr/m/n/10 Para crear ano-ta-cio-nes den-tro de la grafi-ca se uti-li-z
+a el co-man-do []text(Posicion
+ []
 
-(MatLab.aux
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
+ (MatLab.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 25.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
-
-
-Package rerunfilecheck Warning: File `MatLab.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `MatLab.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 25.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
+Package rerunfilecheck Info: File `MatLab.out' has not changed.
+(rerunfilecheck)             Checksum: F9DEDCE624CD9E661530C0D2EDF3705A;1336.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
  ) 
 Here is how much of TeX's memory you used:
- 17932 strings out of 492484
- 316553 string characters out of 3121600
- 557219 words of memory out of 3000000
- 22124 multiletter control sequences out of 15000+200000
- 537282 words of font info for 43 fonts, out of 3000000 for 9000
+ 18154 strings out of 492484
+ 319988 string characters out of 3121600
+ 567219 words of memory out of 3000000
+ 22301 multiletter control sequences out of 15000+200000
+ 539893 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,6n,67p,262b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,6n,67p,443b,436s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/nicoc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><C:/Users/nicoc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb><C:/Users/nicoc/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on MatLab.pdf (1 page, 29391 bytes).
+/cm/cmbx12.pfb><C:/Users/nicoc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmex10.pfb><C:/Users/nicoc/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/nicoc/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/nicoc/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nico
+c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on MatLab.pdf (6 pages, 510142 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 139 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
