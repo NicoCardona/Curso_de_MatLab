@@ -247,5 +247,237 @@
 	\item Para controlar más sobre los parámetros de plot, utilizar el comando \textcolor{blue}{help plot}
 	
 	\end{itemize}
+
+
+	\section{Episodio 17: Animaciones en Gráficas MatLab}
+	
+	Para ello se utiliza la interfaz interna del programa GUIDE. Los pasos para ello son los siguientes:
+	
+	\begin{itemize}
+		\item Crear una figura: Este es el espacio de trabajo del programa; Para ello se porsigue asi: 
+		
+		\textcolor{violet}{fig(1)=figure('name', 'Monitor','menubar','none','position',[200 200 800 700],'color',[0.9 0.6 0.3])}
+		
+	\item Para crear los Axes:
+		
+		\textcolor{violet}{axe(1)=axes('parent',fig(1),'units','pixels','position',[60 80 600 550],'xlim',[0 40].'ylim',[-3 3],'xgrid','on','ygrid','on')}
+		
+	\item Para el nombre de los ejes:
+	
+	\textcolor{violet}{set(get(axe(1),'Xlabel'),'String','Tiempo (Seg)')}
+	
+	\textcolor{violet}{set(get(axe(1),'Ylabel'),'String','Función')}
+	
+	\item Para la creación de los atributos de las líneas:
+	
+	\textcolor{violet}{lin(1)=Line('parent','axe(1)','xdata',[ ],'ydata',[ ],'Color','r','LineWidth', 2.5)}
+	
+	\textcolor{violet}{lin(2)=Line('parent','axe(1)','xdata',[ ],'ydata',[ ],'Color','k','LineWidth', 2)}
+	
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width = 100mm]{imagenes/Funciones/1}
+		\label{txt}
+		\caption{Cuadro de texto}
+	\end{figure}
+
+
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width = 100mm]{imagenes/Funciones/6}
+		\label{botones}
+		\caption{Botones}
+	\end{figure}
+
+
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width = 100mm]{imagenes/Funciones/8}
+		\label{final}
+		\caption{Interfaz final}
+	\end{figure}
+	
+	VER EPISODIO COMPLETO 
+
+	
+	\section{Episodio 18: Gráficas Polares en MatLab}
+	
+	Las otras formas de representar los datos son:
+	
+	\begin{itemize}
+		\item La función \textcolor{purple}{polar(theta,r)} con el ángulo theta en radianes
+		
+		Ejemplo 1:
+		
+		figure
+		
+		x=0:pi/100:pi;
+		
+		y = sin(x);
+		
+		polar(x,y)
+		
+		\item Flor:
+				
+		figure
+		
+		theta = 0:0.01*pi:2*pi;
+		
+		r = 5*cos(4*theta);
+		
+		polar(theta,r)
+		
+		\item Estrella
+				
+		figure
+		
+		theta = pi/2:4/5*pi:4.8*pi;
+		
+		r=ones(1,6);
+		
+		polar(theta,r)
+	\end{itemize}
+	
+	
+	\end{itemize}
+
+
+	\section{Episodio 19: Arreglo de Gráficas}
+	
+				
+	Para emplear las gráficas logaritmicas se ultiliza de la siguiente manera:
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width = 100mm]{imagenes/Funciones/logaritmica}
+		\label{logarit}
+		\caption{Arreglo logarítmico para gráficas}
+	\end{figure}
+				
+	\begin{itemize}
+		\item Ejemplo: Graficar $y = 5x^2$ con los cuatro enfoques de escalamiento
+		
+		$x = 0:0.5:50;$		[Vector de x]
+		
+		$y = 5*x.^2;$		[Función de y (El punto es importante para que eleve cada elemento del vector al cuadrado)]
+		
+		subplot(2,2,1) \\
+		plot(x,y)\\
+		title('Polinomial-Lineal-lineal')\\
+		ylabel('y'), grid
+		
+		subplot(2,2,2) \\
+		semilogx(x,y)\\
+		title('Polinomial-Logaritmica-Lineal')\\
+		ylabel('y'), grid
+		
+		subplot(2,2,3) \\
+		semilogy(x,y)\\
+		title('Polinomial-Lineal-Logaritmica')\\
+		xlabel('x'), grid
+		
+		subplot(2,2,4) \\
+		loglog(x,y)\\
+		title('Polinomial-Logaritmica- Logaritmica')\\
+		xlabel('x'), grid
+		
+	\end{itemize}	
+		
+	\section{Episodio 20: Gráfica de Barras y Pastar en MatLab}
+	
+	Los diferentes tipos de gráficos disponibles son:
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width = 100mm]{imagenes/Funciones/barras}
+		\label{barras}
+		\caption{Tipos de gráficas}
+	\end{figure}
+
+	\begin{itemize}
+		\item Ejemplo 1:
+		
+		x = [1 2 5 4 8];
+		y = [x;1:5]
+		
+		figure\\
+		subplot(2,2,1)\\
+		bar(x)\\
+		title('Gráfica de Barras del vector $x$')
+		
+		subplot(2,2,2)\\
+		bar(y)\\
+		title('Gráfica de la matriz $y$')
+		
+		subplot(2,2,3)\\
+		bar3(x)\\
+		title('Gráfica tridimensional de Barras del vector $x$')
+		
+		subplot(2,2,4)\\
+		bar3h(y)\\
+		title('Gráfica tridimensional de Barras Horizontales de la matriz $y$')
+		
+	\end{itemize}
+	
+	\section{Episodio 21: Histograma}
+	
+	Para hacer un histograma, el defecto son 10 depósitos o categorías.
+	
+	\begin{itemize}
+		\item Ejemplo 1: Calificaciones de alumnos
+		
+	El comando a utilizar es \textcolor{green}{hist(x,n)} donde $n$ es el número de depósitos. También se puede almacenar el histograma en una variable \textcolor{green}{A = hist(x,n)}
+	
+	\textcolor{purple}{hist help} recomienda usar en vez \textcolor{purple}{HISTOGRAM}
+	\end{itemize}
+
+	\section{Episodio 22: Graficar en MatLab en 3D}
+	
+	MatLab utiliza los siguientes comandos para graficar:
+	
+		\begin{figure}[h!]
+		\centering
+		\includegraphics[width = 100mm]{imagenes/Funciones/graficas3d}
+		\label{3d}
+		\caption{Tipos de gráficas en 3D}
+	\end{figure}
+	
+	\section{Episodio 23: Superficie en Gráficas 3D}
+	
+	\begin{itemize}
+		\item Las gráficas Mesh son muy utilizadas en procesos de optimización de ingeniería
+		\item La función Surf crea una superficie tridimensional en vez de un mallado, para controlar las sombras se utiliza el comando \textcolor{purple}{shading + opción}
+	\end{itemize}
+
+	\section{Episodio 24: Gráficas de Contorno y Superficie}
+
+	\begin{itemize}
+		\item El comando \textcolor{purple}{[X,Y] = meshgrid(x,y)} se utiliza para crear una grilla
+		\item La función \textcolor{purple}{sufc} combina la gráfica de superficie con la gráfica de contorno
+	\end{itemize}
+		
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width = 100mm]{imagenes/Funciones/ejemplodemeshgrid}
+		\label{gridejemplo}
+		\caption{Ejemplo del comando meshgrid}
+	\end{figure}
+	
+	\begin{itemize}
+		\item Para utilizar el colormap 
+	\end{itemize}
+
+		\begin{figure}[h!]
+		\centering
+		\includegraphics[width = 100mm]{imagenes/Funciones/colormap}
+		\label{colormap}
+		\caption{Ejemplos del colormap}
+	\end{figure}
+	
+	\begin{itemize}
+		\item En el comando \textcolor{purple}{pcolor} para quitar la cuadricula se utiliza el comando \textcolor{green}{shading interp}
+	\end{itemize}
+	
 	
 \end{document}
