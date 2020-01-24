@@ -1,0 +1,17 @@
+commit 74c00c5eb2aa8614b84496caeca94fcb86db175b
+Author: nicocardona98 <nicocardona98@gmail.com>
+Date:   Thu Jan 23 19:54:34 2020 -0500
+
+    Casi finalización del tutorial de MatLab, se llega hasta el episodio 24
+
+commit f8d5bd6c3badd34271a43469a0549e229517e418
+Author: nicocardona98 <nicocardona98@gmail.com>
+Date:   Wed Jan 22 16:18:58 2020 -0500
+
+    Todo lo relativo con MatLab hasta las gráficas en 2D
+
+commit a78cd72cb4ca4200996bd4c7c0d92053561de976
+Author: nicocardona98 <nicocardona98@gmail.com>
+Date:   Wed Jan 22 11:33:38 2020 -0500
+
+    Inicio del documento de MatLab
